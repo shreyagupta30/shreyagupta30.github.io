@@ -121,6 +121,15 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.opensource.enable | default false) (not (.Site.Params.navbar.menus.disableOpensource | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#opensource"
+                            aria-label="opensource">
+                            {{ .Site.Params.opensource.title | default "Opensource" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"

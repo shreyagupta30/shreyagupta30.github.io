@@ -29,11 +29,11 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      # name: Gallery
-      # title: Blog posts
-      # url: /gallery
-      # weight: 2
+    # - identifier: opensource
+    #   name: Opensource
+    #   title: Blog posts
+    #   url: /#opensource
+    #   weight: -3
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -106,8 +106,8 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Shreya Gupta" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -120,6 +120,7 @@ params:
       disableProjects: false
       disableAchievements: false
       disableContact: false
+      disableOpensource: false
 
   # Hero
   hero:
@@ -146,9 +147,6 @@ params:
           url: https://twitter.com/shreya_gupta30
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/shreya-gupta30/
-      # customIcons:
-      #   - icon: fab fa-linkedin
-      #     url: https://www.linkedin.com/in/shreya-gupta30/
 
   # About
   about:
@@ -406,10 +404,10 @@ params:
           - icon: fab fa-youtube
             url: https://youtu.be/miPXoQ1xpM4
 
-  # Opensource
+  # opensource
   opensource:
     enable: true
-    # title: "Custom Name"
+    title: "Open Source"
     items:
       - title: VinePerf - Anuket Project
         content: Created helm charts for test tools and automation python script to deploy the charts and extract useful deployment details
