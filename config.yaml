@@ -317,7 +317,7 @@ params:
     items:
       - title: Cisco Meraki's Devnet App
         content: Developed a Flutter based cross platform for analyzing queue Data
-        image: /images/projects/profile.png
+        image: sih.jpg
         # featured:
         #   name: Demo
         #   link: https://hugo-profile.netlify.app
@@ -332,7 +332,7 @@ params:
 
       - title: Mid Day Meal Analytics
         content: Developed a React based Cross platform application which provides Mid Day Meal School data via Meraki Camera.
-        image: /images/projects/converter.jpg
+        image: midday.png
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
@@ -405,6 +405,129 @@ params:
             url: https://github.com/shubhank-saxena/endgame-spoiler-blocker
           - icon: fab fa-youtube
             url: https://youtu.be/miPXoQ1xpM4
+
+  # Opensource
+  opensource:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: VinePerf - Anuket Project
+        content: Created helm charts for test tools and automation python script to deploy the charts and extract useful deployment details
+        image: anuket.png
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        badges:
+          - "Kubernetes"
+          - "Helm"
+          - "Python"
+          - "CI/CD"
+        links:
+          - icon: fab fa-github
+            url: https://gerrit.opnfv.org/gerrit/c/vineperf/+/72940
+
+      - title: Nmstate/Nmstate
+        content: Added Wireguard support to nmstate
+        image: fedora.png
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Python"
+          - "CI/CD"
+          - "Python"
+          - "Linux"
+          - "Networking"
+          - "declarative API"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/nmstate/nmstate/pull/1450
+
+      - title: jaegertracing/jaeger-analytics-java
+        content: Documentation for spinning up notebook and perform data analytics.
+        image: jaeger.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - Jaeger analytics
+          - Observability
+          - Python
+          - Java
+          - Documentation
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaegertracing/jaeger-analytics-java/pull/53
+
+      - title: open-telemetry/opentelemetry-python
+        content: Contributed by adding two additional attributes to record_exception method
+        image: opentelemetry.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - Python
+          - CI/CD
+          - Tests
+        links:
+          - icon: fab fa-github
+            url: https://github.com/open-telemetry/opentelemetry-python/pull/1242
+
+      - title: jaegertracing/documentation
+        content: Contributed by adding a copy button on the right top corner of all the code snippets.
+        image: jaeger.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - Hugo
+          - Javascript
+          - SCSS
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaegertracing/documentation/pull/449
+
+      - title: Meshes.jl - JuliaGeometry
+        content: Contributed by writing tests for different functions of Meshes.jl<
+        image: julia.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - Julia
+          - Testing in Julia
+          - Computational Geometry
+        links:
+          - icon: fab fa-github
+            url: https://github.com/JuliaGeometry/Meshes.jl/pull/20
+
+      - title: scalability4all/voice-enabled-chatbot
+        content: Added a new feature to the chatbot to integrate the splitwise API.
+        image: /chatbot.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - Python
+          - Flask
+        links:
+          - icon: fab fa-github
+            url: https://github.com/scalability4all/voice-enabled-chatbot/pull/17
+
+      - title: OpenGenus/Cosmos
+        content: Contributed by adding techincal blogs and example codes for different topics in languages like C, C++ and Python for cosmos.
+        image: opengenus.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - C
+          - C++
+          - Python
+          - Documentation
+        links:
+          - icon: fab fa-github
+            url: https://github.com/OpenGenus/cosmos/commits?author=shreyagupta30
 
   #Contact
   contact:
