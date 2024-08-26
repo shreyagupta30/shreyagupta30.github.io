@@ -136,7 +136,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1qMbvR7MjKpxyHMfDwdIZZN8JW4WDHevQ/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1bV6Ak-jNcu8SM44EemDiVZRsRe2gbitD/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -177,6 +177,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Software Engineer Intern"
+        company: "Bullwhip Technologies"
+        companyUrl: "https://www.bullwhip.io/"
+        date: "Jun 2023 - ongoing"
+        featuredLink:
+          enable: true
+          name: "View the project"
+          url: "https://www.bullwhip.io/"
+        info:
+          enable: true
+          content: I joined Bullwhip as a Software Engineer Intern.
+        content: |
+          - Led the end-to-end integration of Microsoft Ads API and Taboola Ads API to fetch, create campaigns, and upload offline conversions, driving substantial revenue growth, addressing high-demand feature requests, and reducing manual efforts by 85%.
+          - Integrated CJ Affiliate platform API into CINCY, a real-time database providing comprehensive product metadata, enabling real-time multi-retailer price and availability tracking.
+          - Engineered complex BigQuery SQL queries to extract, transform, and ingest data from client tables, optimizing performance for the B2B Dashboard
+          - Technology stack : Python, Django, GCP, Github Actions, BigQuery, Continuous Integration and Continuous Delivery (CI/CD), PostgreSQL
+
       - job: "Senior Software Engineer"
         company: "Wall"
         companyUrl: "https://www.wall.app/"
