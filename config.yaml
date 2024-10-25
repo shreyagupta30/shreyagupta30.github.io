@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Shreya Gupta Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -76,8 +76,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
