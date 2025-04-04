@@ -128,7 +128,7 @@ params:
     intro: "Welcome to my corner of the Internet!"
     title: "I'm Shreya Gupta"
     subtitle: "I build things for the web"
-    content: "Backend-focused software engineer excelling in designing and optimizing scalable systems and APIs"
+    content: "Software Engineer simplifying complexity through robust backend and cloud architectures."
     image: "/me.png"
     bottomImage:
       enable: true
@@ -136,7 +136,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1dYlBrI6EIOqfeA4yMEAJzIoRrpf2Brzj/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1x8HrSj7OCZp1IxX-nuw74z0og6oTA0JG/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -154,18 +154,26 @@ params:
     title: "About Me"
     # image: "/place.png"
     content: |-
-      I am a software developer with expertise in Python, Django, Docker, postgreSQL and AWS/GCP. I've always sought out opportunities and challenges that are meaningful to me.  I owe my career to FOSS community. Working on all these projects has helped me grow tremendously as a developer. I care about building impactful, accessible and inclusive tech for everyone. I care deeply about diversity and inclusion.💜
+      
+      I’m Shreya—a passionate software developer with a knack for solving real-world problems through technology. My journey started in the vibrant world of free and open source software, which not only shaped my technical skills but also instilled in me a deep commitment to diversity, inclusion, and community.
+      
+      At my core, I specialize in Python, Django, Docker, PostgreSQL, and cloud platforms like AWS and GCP. Every project I’ve worked on has been an opportunity to learn, grow, and make an impact. I thrive on challenges that push me to innovate, and my mission is to build impactful, accessible, and inclusive tech that truly makes a difference.
 
-      As a developer, I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic in my day to day to make it impactful.
-      When I'm not working, I love [curling up with a good book](https://www.goodreads.com/user/show/83816379-shreya-gupta), [capturing beautiful moments with my camera](https://unsplash.com/@shreyagupta30). Recently, I've been trying my hand at urban sketching.
-    
-      I am currently a graduate student at Northeastern University, Boston, MA pursuing MS Information Systems.
+      When I'm at work, I pour my obsessive attention to detail and my love for crafting elegant solutions into every line of code. I leverage a diverse array of technologies and tools (including AI) to solve the problem at hand, ensuring that every solution is well-tested, clearly documented, and thoughtfully designed.
+
+      Outside the codebase, I’m an avid reader and photographer. I love [curling up with a good book](https://www.goodreads.com/user/show/83816379-shreya-gupta) or [capturing beautiful moments with my camera](https://unsplash.com/@shreyagupta30). Recently, I’ve even been exploring urban sketching, adding a creative twist to my downtime.  
+
+      Currently, I’m furthering my expertise as a graduate student at Northeastern University in Boston, MA, pursuing an MS in Information Systems. Whether it's through learning or sharing, I’m always on the lookout for new challenges and opportunities to grow both personally and professionally.
+
+      Feel free to reach out—I'm always excited to connect, collaborate, or just chat about all things tech!
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Django"
         - "Python"
+        - "Docker"
+        - "SQL"
         - "Terraform"
         - "AWS/GCP"
         - "Containerisation"
@@ -180,7 +188,7 @@ params:
       - job: "Software Engineer Intern"
         company: "Bullwhip Technologies"
         companyUrl: "https://www.bullwhip.io/"
-        date: "Jun 2023 - ongoing"
+        date: "Jun 2024 - Aug 2024"
         featuredLink:
           enable: true
           name: "View the project"
@@ -189,11 +197,15 @@ params:
           enable: true
           content: I joined Bullwhip as a Software Engineer Intern.
         content: |
-          - Led the end-to-end integration of Microsoft Ads API and Taboola Ads API to fetch, create campaigns, and upload offline conversions, driving substantial revenue growth, addressing high-demand feature requests, and reducing manual efforts by 85%.
-          - Integrated CJ Affiliate platform API into CINCY, a real-time database providing comprehensive product metadata, enabling real-time multi-retailer price and availability tracking.
-          - Engineered complex BigQuery SQL queries to extract, transform, and ingest data from client tables, optimizing performance for the B2B Dashboard
-          - Technology stack : Python, Django, GCP, Github Actions, BigQuery, Continuous Integration and Continuous Delivery (CI/CD), PostgreSQL
-
+          - Led the full integration of Microsoft and Taboola Ads APIs, automating campaign creation and offline conversion uploads. This initiative drove substantial revenue growth, fulfilled high-demand feature requests, and streamlined process automation.
+          - Enhanced “CINCY,” the company’s real-time product database for multi-retailer price and availability tracking, by integrating affiliate networks. This improved data accuracy and expanded the platform’s capabilities.
+          - Engineered complex ETL pipelines for recurring data ingestion from diverse customer sources. Key contributions included:
+              - Crafting sophisticated BigQuery queries.
+              - Developing ETL scripts using Python and Django.
+              - Designing partitioned and isolated client schemas in PostgreSQL.
+              - Implementing indexing and data normalization processes for web pages.
+              - Upgraded “Channels,” a cron-based microservice that ingests data from affiliate network APIs into BigQuery datastores, by adding new affiliate integrations to enhance data breadth.
+          - Proactively established engineering documentation and critical alerting systems, setting up Sentry alerts for vital backend systems to improve reliability and facilitate team efficiency.
       - job: "Senior Software Engineer"
         company: "Wall"
         companyUrl: "https://www.wall.app/"
@@ -206,13 +218,14 @@ params:
           enable: true
           content: I joined Wall as a Software Engineer and was later promoted to the position of Senior Software Engineer.
         content: |
-          - Managed and developed the entire project with 200K+ user(Aug 2023) for a questing platform from ideation to production, enhancing project management efficiency and technical excellence, resulting in a 15% faster go-to-market time.
-          - Designed and implemented on-chain data aggregation and efficient backend system using Django, attracting 10K+ new users in 24 hrs, demonstrating strong system design and optimization skills.
-          - Led the development of a gamified Django platform, which boosted user engagement by 30% through strategic NFT integration.
-          - Developed and maintained a scalable and secure backend system using Django, resulting in a 20% increase in user retention.
-          - Contributed significantly to a B2B wallet profiling product development, leveraging EVM chain technology, RestfulAPIs, PostgreSQL, and Docker to segment on-chain wallet addresses effectively and enhance target funnel strategies.
-          - Technology stack : Python, Django, AWS, Github Actions, Docker, Continuous Integration and Continuous Delivery (CI/CD), PostgreSQL, RestfulAPIs, EVM chain technology, Twitter API, IPFS, NFT
-
+          - Developed ETL pipelines to access data from EVM chain(ETH) from genesis to date and process it further for analytics and human readability. 
+          - Spearheaded the development of on-chain data aggregation and social features, which significantlyy improved the overall user experience.
+          - Built and maintained the backend infrastructure for the product, ensuring its smooth operation and performance.
+          - Successfully released a new feature that quickly gained popularity, attracting over 10,000+ users in just 48 hours.
+          - Streamlined the code architecture, containerized sub-modules and established continuous integration pipelines to improve efficiency and quality.
+          - Contributed significantly to a B2B wallet profiling product development, leveraging EVM chain technology, PostgreSQL, and Docker to segment on-chain wallet addresses effectively and enhance target funnel strategies.
+          - Engineered and launched a gamified Django platform targeting the active NFT community, significantly increasing product engagement and user base. Led the integration of NFT functionalities, ensuring seamless user experience and system performance.
+          - Mentored three interns and created team processes to improve team productivity & collaboration.
       - job: "Software Engineer"
         company: "Lime Health Inc"
         companyUrl: "https://www.lime.health/"
@@ -275,14 +288,18 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Science in Information Systems"
+      - title: "Master of Science in Computer Software Engineering"
         school:
           name: "Northeastern University, Boston, MA"
           url: "https://www.northeastern.edu/"
-        date: "2023 - 2025"
+        date: "Sept 2023 - April 2025"
         GPA: "3.6 out of 4.0"
         content: |-
           Courses:
+            - UI/UX Design
+            - Natural Language Processing and LLMs
+            - Agile Software Development
+            - Big Data architecture and indexing
             - Data Structures and Algorithms
             - Network Structures and Cloud Computing
             - Application Engineering and Development
