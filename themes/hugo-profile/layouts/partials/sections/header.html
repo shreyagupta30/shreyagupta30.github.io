@@ -139,6 +139,15 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.talks.enable | default false) (not (.Site.Params.navbar.menus.disableTalks | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#talks"
+                            aria-label="talks">
+                            {{ .Site.Params.talks.title | default "Talks" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.contact.enable | default false) (not (.Site.Params.navbar.menus.disableContact | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#contact"

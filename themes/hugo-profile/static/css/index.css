@@ -518,6 +518,52 @@ header .navbar.animate {
     border-radius: 0.7rem;
 }
 
+/* talks */
+
+#talks a {
+    text-decoration: none;
+}
+
+#talks h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#talks .card {
+    cursor: context-menu;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    /* transform: translate3d(0, 0, 0); */
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
+}
+
+#talks a.card {
+    cursor: alias;
+}
+
+#talks .card h5 {
+    color: var(--text-color) !important;
+    opacity: 0.9;
+}
+
+#talks .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+#talks .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#talks .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+
+#talks img {
+    border-radius: 0.7rem;
+}
 /* contact */
 
 #contact h3 {

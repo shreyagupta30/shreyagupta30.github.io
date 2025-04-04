@@ -163,7 +163,7 @@ params:
 
       Outside the codebase, I’m an avid reader and photographer. I love [curling up with a good book](https://www.goodreads.com/user/show/83816379-shreya-gupta) or [capturing beautiful moments with my camera](https://unsplash.com/@shreyagupta30). Recently, I’ve even been exploring urban sketching, adding a creative twist to my downtime.  
 
-      Currently, I’m furthering my expertise as a graduate student at Northeastern University in Boston, MA, pursuing an MS in Information Systems. Whether it's through learning or sharing, I’m always on the lookout for new challenges and opportunities to grow both personally and professionally.
+      Currently, I’m furthering my expertise as a graduate student at Northeastern University in Boston, MA, pursuing an MS in Computer Software Engineering. Whether it's through learning or sharing, I’m always on the lookout for new challenges and opportunities to grow both personally and professionally.
 
       Feel free to reach out—I'm always excited to connect, collaborate, or just chat about all things tech!
     skills:
@@ -330,10 +330,6 @@ params:
         content: Developed a decentralised reward model NFT collections to reward their holders. The onchain data was fetched using Dune Analytics API.
         url: https://ethglobal.com/showcase/crown-collectibles-gueom
         image: ethindia.jpeg
-      - title: Speaker - Pycon Korea'21
-        content: Delivered a talk on Introduction to GIS (Geographic Information System) in Python at Pycon Korea'21.
-        url: "https://www.youtube.com/watch?v=pkigjph7Nxc"
-        image: pycon.png
       - title: Outreachy Intern
         content: One of the 54 interns out of 3500+ applications all around the world. I interned at Fedora Organisation, Project named Nmstate and Nispor
         url: https://www.outreachy.org/alums/2020-12/
@@ -342,41 +338,74 @@ params:
         content: Issued by Inter Institutional Inclusive Innovations, MHRD, Cisco DevNet · Mar 2019. Successfully solved complex problem statement given by Cisco DevNet at Smart India Hackathon, Software Edition'19- World's biggest hackathon.
         image: sih.jpg
 
+  # Talks
+  Talks:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Contributing to Open Source - Podcast with Priyanka Saggu - 
+        content: Shared my journey so far as open source contributor. I talked about overcoming challenges, learning from every experience, and my advice to new contributors.
+        url: https://www.youtube.com/watch?v=LnnFjscF4Wc&list=PLcr836Dq7cidLFo72ohTcTg2qBKLDSNLB
+      - title: Speaker - Pycon Korea'21
+        content: Delivered a talk on Introduction to GIS (Geographic Information System) in Python at Pycon Korea'21.
+      - title: NetworkManager Community Meetup - DevConf.CZ 2021
+        content: Meet and discussion with the NetworkManager community about the future of nmstate and its integration with NetworkManager.
+        url: "https://youtu.be/w8DCaBfWKp4?si=tdGrwIdr34WwhIAr"
+      - title: Informational Session on Open Source Contribution
+        content: Live broadcast about open source contribution and how to get started with it through Hacktoberfest.
+        url: "https://www.youtube.com/live/mgnH4TQK_3E?si=z3Vbim6f0fb0Yn8P"
+
+
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Cisco Meraki's Devnet App
-        content: Developed a Flutter based cross platform for analyzing queue Data
-        image: sih.jpg
-        # featured:
-        #   name: Demo
-        #   link: https://hugo-profile.netlify.app
+      - title: healthcare-api-gateway
+        content: A robust REST API implementation that handles structured JSON data with advanced features including Elasticsearch integration, message queuing, and security mechanisms.
+        image: healthcare-api.png
         badges:
-          - "Alexa SDK"
-          - "Flutter"
-          - "Django"
-          - "React"
+          - Django
+          - Redis
+          - ElasticSearch
+          - Queueing
+          - Security
         links:
           - icon: fab fa-github
-            url: https://github.com/shreyagupta30/Cisco-SIH-1
+            url: https://github.com/shreyagupta30/healthcare-api-gateway
 
-      - title: Mid Day Meal Analytics
-        content: Developed a React based Cross platform application which provides Mid Day Meal School data via Meraki Camera.
-        image: midday.png
-        # featured:
-        #   name: Demo
-        #   link: https://django-converter.herokuapp.com
+      - title: GCP Webapp Infrastructure
+        content: A robust, cloud-native user authentication service built with Django REST Framework. A production-grade infrastructure as code (IaC) project using Terraform to deploy a scalable web application on Google Cloud Platform
+        image: gcp-infra.png
         badges:
-          - "Django"
-          - "CI/CD"
-          - "React"
-          - "Deep Learning"
-          - "OpenCV"
+          - Django
+          - Google Cloud Platform
+          - PostgreSQL
+          - Terraform
+          - Packer
+          - Storage & Messaging
         links:
           - icon: fab fa-github
-            url: https://github.com/shubhank-saxena/CiscoDevnetSIH2020_Kamikazey
+            url: https://github.com/shreyagupta30/secure-auth-service-webapp
+          - icon: fab fa-github
+            url: https://github.com/shreyagupta30/gcp-webapp-infrastructure
+      - title: Bridge
+        content: All in one application for differently abled people during the times of COVID19
+        image: bridge.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - Django
+          - React
+          - Deep Learning
+          - OpenCV
+          - NLP
+        links:
+          - icon: fab fa-github
+            url: https://github.com/shreyagupta30/Bridge
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=TxYUWJJDFUk
 
       - title: Flower Classifier
         content: This project is my introductory project to the world of Deep Learning.
@@ -405,24 +434,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/shreyagupta30/url-shorty
-
-      - title: Bridge
-        content: All in one application for differently abled people during the times of COVID19
-        image: bridge.png
-        # featured:
-        #   name: Demo V2
-        #   link: https://hugo-profile-2.netlify.app
-        badges:
-          - Django
-          - React
-          - Deep Learning
-          - OpenCV
-          - NLP
-        links:
-          - icon: fab fa-github
-            url: https://github.com/shreyagupta30/Bridge
-          - icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=TxYUWJJDFUk
 
       - title: Spoiler Blocker
         content: A chrome extension to block all the spoilers of Avengers-Endgame
