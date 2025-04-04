@@ -343,7 +343,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Contributing to Open Source - Podcast with Priyanka Saggu - 
+      - title: Contributing to Open Source - Podcast with Priyanka Saggu
         content: Shared my journey so far as open source contributor. I talked about overcoming challenges, learning from every experience, and my advice to new contributors.
         url: https://www.youtube.com/watch?v=LnnFjscF4Wc&list=PLcr836Dq7cidLFo72ohTcTg2qBKLDSNLB
       - title: Speaker - Pycon Korea'21
